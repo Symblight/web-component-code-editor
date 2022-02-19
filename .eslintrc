@@ -1,0 +1,4 @@
+{
+  "plugins": ["custom-elements", "github"],
+  "extends": ["plugin:custom-elements/recommended", "plugin:github/recommended"]
+}

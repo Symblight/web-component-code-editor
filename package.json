@@ -1,0 +1,37 @@
+{
+  "name": "editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^6.0.0",
+    "editorconfig": "^0.15.3",
+    "eslint": "^8.9.0",
+    "eslint-plugin-custom-elements": "^0.0.4",
+    "eslint-plugin-github": "^4.3.5",
+    "gulp": "^4.0.2",
+    "gulp-esbuild": "^0.10.1",
+    "gulp-postcss": "^9.0.1",
+    "postcss": "^8.4.6",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "@codemirror/basic-setup": "^0.19.1",
+    "@codemirror/lang-css": "^0.19.3",
+    "@codemirror/lang-html": "^0.19.4",
+    "@codemirror/lang-javascript": "^0.19.7",
+    "@codemirror/lang-json": "^0.19.2",
+    "@codemirror/lang-markdown": "^0.19.6",
+    "@codemirror/lang-rust": "^0.19.1",
+    "@codemirror/state": "^0.19.9",
+    "@codemirror/view": "^0.19.44",
+    "@github/template-parts": "^0.4.0",
+    "lit": "^2.2.0"
+  }
+}
